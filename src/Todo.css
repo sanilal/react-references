@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width: 500px;
+    max-width: 90%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5rem 0;
+}
+.number {
+    font-size: 1.5rem;
+    color: white;
+}
+input {
+    padding: .4rem 1rem;
+    font-size:  1.36rem;
+    margin-top: .75rem;
+}
+button {
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    transition: all .3s ease;
+    font-family: Arial, sans-serif;
+    padding: .5rem 1rem;
+    font-size:  1.36rem;
+    background-color:chocolate;
+    color: white;
+}
+button:hover {
+    background-color: white;
+    color: blueviolet;
+}
+ul.todos-list {
+    list-style: none;
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 15px;
+    background: rgb(255 255 255 / 50%);
+    padding: 10px 15px;
+    color: #fff;
+}
+ul.todos-list li.todo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+ul.todos-list li.todo button {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
